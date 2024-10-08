@@ -1,5 +1,8 @@
 package cards;
 
+import java.util.List;
+import java.util.*;
+
 public class Deck2 {
 
     public static final String[] SUIT = {
@@ -45,8 +48,8 @@ public class Deck2 {
         return this.cards[pos];
     }
 
-    @Override
-    public String toString() {
-        return "Number of cards: %d".formatted(cards.length);
-    }
+    
+    
+
 }
+
